@@ -41,9 +41,9 @@ class window.JsWidget.Widget
   # Removes the html from the DOM, if the widget already exists
   remove_widget_if_existing: ->
     if window.JsWidget.JQUERY and $("##{@id}").length > 0
-      $("##{@id}").detach() # TODO: Check for correct method to remove an element
-      true
-    # TODO: Implement else branch
+      $("##{@id}").detach()
+    else
+      document.getElementById(@id).remove()
 
   # Load a template file from the given path via ajax
   load_template_file: (path, callback) ->
