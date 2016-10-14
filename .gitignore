@@ -1,0 +1,8 @@
+build/*.js
+
+src/*.js
+src/*.js.map
+src/*.src.coffee
+
+coverage
+node_modules

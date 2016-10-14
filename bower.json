@@ -1,0 +1,30 @@
+{
+  "name": "js-widget",
+  "description": "",
+  "keywords": [
+    "js",
+    "template",
+    "widgets"
+  ],
+  "homepage": "",
+  "license": "GPL-3.0",
+  "moduleType": "globals",
+  "main": [
+    "build/js-widget.js"
+  ],
+  "ignore": [
+    "/.*",
+    "_config.yml",
+    "CNAME",
+    "composer.json",
+    "CONTRIBUTING.md",
+    "docs",
+    "js/tests",
+    "test-infra",
+    "spec",
+    "coverage",
+    "node_modules".
+  ],
+  "dependencies": {
+  }
+}
