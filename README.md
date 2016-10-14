@@ -1,6 +1,7 @@
 # js-widget
 
 [![Codeship Status for hanspolo/js-widget](https://codeship.com/projects/a1c8a730-7462-0134-12ca-76a75a837005/status?branch=master)](https://codeship.com/projects/179191)
+[![Code Climate](https://codeclimate.com/github/hanspolo/js-widget/badges/gpa.svg)](https://codeclimate.com/github/hanspolo/js-widget)
 
 ## About
 js-widget provides some helpful features to manage widgets in your web application.
