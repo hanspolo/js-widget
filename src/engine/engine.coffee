@@ -8,7 +8,7 @@ class window.JsWidget.Engine.Engine
   # Checks if the engine is currently loaded
   check_engine: =>
     if window.JsWidget.EnginePresence.indexOf(@engine_name) < 0
-      throw new Error("Template Engine '#{@engine_name}' is missing. Please install the template engine you want to use and try again");
+      throw new Error("Template Engine '#{@engine_name}' is missing. Please install the template engine you want to use and try again")
 
   # Runs the compilation of the template.
   # This method doesn't implement the behaviour.

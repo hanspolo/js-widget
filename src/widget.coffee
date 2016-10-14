@@ -36,7 +36,7 @@ class window.JsWidget.Widget
       $('body').append($("<div id=#{@id} style=display:none>").append(code))
     else
       body = document.getElementsByTagName('body')
-      body.innerHTML = body.innerHTML + "<div id=#{@id} style=\"display:none\">#{code}</div>";
+      body.innerHTML = body.innerHTML + "<div id=#{@id} style=\"display:none\">#{code}</div>"
 
   # Removes the html from the DOM, if the widget already exists
   remove_widget_if_existing: ->
@@ -67,7 +67,7 @@ class window.JsWidget.Widget
         $("##{@id}").show =>
           @state = 'visible'
       else
-        document.getElementById(@id).style.display = 'block';
+        document.getElementById(@id).style.display = 'block'
         @state = 'visible'
     catch error
       @state = 'invisible'
@@ -85,7 +85,7 @@ class window.JsWidget.Widget
         $("##{@id}").hide =>
           @state = 'invisible'
       else
-        document.getElementById(@id).style.display = 'none';
+        document.getElementById(@id).style.display = 'none'
         @state = 'invisible'
     catch error
       @state = 'visible'
