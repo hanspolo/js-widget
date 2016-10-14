@@ -1,4 +1,4 @@
-build/*.js
+build/js-widget-*.js
 
 src/*.js
 src/*.js.map
