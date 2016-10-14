@@ -1,5 +1,7 @@
 # js-widget
 
+[![Codeship Status for hanspolo/js-widget](https://codeship.com/projects/a1c8a730-7462-0134-12ca-76a75a837005/status?branch=master)](https://codeship.com/projects/179191)
+
 ## About
 js-widget provides some helpful features to manage widgets in your web application.
 It can be used with different template engines, even with none, with or without jQuery
