@@ -64,4 +64,4 @@ my_widget.is_invisible()
 
 ## License
 This project uses the GPL-3.0 license.
-Read [the license file](https://github.com/hanspolo/js-widget/blob/LICENSE.txt) for more information.
+Read [the license file](https://github.com/hanspolo/js-widget/blob/master/LICENSE.txt) for more information.
